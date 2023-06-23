@@ -1184,8 +1184,6 @@ position: relative;
 color: var(--back-accent-color);
 }  
 
-
-
     .customer-item {
         width: calc((100% - 48px) / 3);
         Height: 88px;
@@ -1225,7 +1223,6 @@ color: var(--back-accent-color);
         width:  calc((100% - 24px) / 2); 
     }
    
-
     .working {
         display: flex;
         gap: 24px;
@@ -1242,7 +1239,6 @@ color: var(--back-accent-color);
         margin-bottom: 72px;
     }
  
-
     .team-container {
         max-width: 582px;
     }
@@ -1276,7 +1272,6 @@ color: var(--back-accent-color);
         margin-bottom: 16px;
 
     }
-    
     
     .footer-text-media {
         font-weight: 500;
