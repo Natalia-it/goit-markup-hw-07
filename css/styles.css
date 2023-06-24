@@ -586,8 +586,10 @@ color: var(--primary-text-color);
     width: 264px;
     letter-spacing: 0.02em;
     line-height: 24px;
+    margin: auto;
     margin-bottom: 72px;
     text-align: justify;
+
     
 }
 .footer .logo {
@@ -1089,6 +1091,28 @@ border: none;
   }
   
 
+  @media screen and (max-width: 767px) {
+    .footer_email {
+        width: 100%;
+    }
+   .footer-modal-email {
+    width: 100%; 
+    }
+    .email_form_input_footer {
+        width: 100%; 
+    }
+.email_label_footer {
+    width: 100%;  
+}
+}
+
+@media screen and (max-width: 427px) {
+    .modal {
+        max-width: 90%;
+    }
+}
+
+
 /* TABLET */
 
 @media screen and (min-width: 768px) {
@@ -1339,6 +1363,7 @@ color: var(--back-accent-color);
       
 }
 .footer-container {
+    width: 582px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1416,6 +1441,7 @@ color: var(--back-accent-color);
     line-height: 1.5;
     letter-spacing: 0.04em;       
 }
+
 
 
 }
@@ -1554,6 +1580,7 @@ color: var(--back-accent-color);
 
 
 .footer-container {
+    width: 100%;
     display: flex;
     align-items: baseline; 
     
