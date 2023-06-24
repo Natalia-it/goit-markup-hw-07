@@ -1471,6 +1471,11 @@ color: var(--back-accent-color);
            
     }
     
+    .auth-nav-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+
     .auth-nav .item + .item {
     margin-left: 40px;
     }
