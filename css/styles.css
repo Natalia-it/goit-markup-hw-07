@@ -1419,6 +1419,9 @@ color: var(--back-accent-color);
     .container {
         max-width: 1158px;
     }
+
+
+    
     .main-nav {
         justify-content: flex-start;
         
@@ -1535,15 +1538,24 @@ color: var(--back-accent-color);
     background-color: var(--title-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    /* padding-left: 0; */
+    padding-left: 0;
+    padding-right: 0;
       
 }
+
+
+
 .footer-container {
     display: flex;
     align-items: baseline; 
-    flex-wrap: nowrap;
-
+    
 }
+
+
+
+
+
+
 
 .logo-footer {
     color: var(--back-dark-color);
