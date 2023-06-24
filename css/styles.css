@@ -410,7 +410,7 @@ color: var(--primary-text-color);
 .main-p {
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin-bottom: 8px;
+    
     
   
 }
@@ -565,8 +565,8 @@ color: var(--primary-text-color);
     background-color: var(--title-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
       
 }
 .footer-container {
@@ -1150,7 +1150,7 @@ border: none;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    margin-bottom: 12px;    
+    
 }
 
 ul#auth-nav li {
@@ -1162,9 +1162,15 @@ ul#auth-nav li {
     margin-top: 24px;
     font-style: normal;
     color: var(--title-text-color); 
-    margin-bottom: 12px;  
+    
     } 
     
+
+    .auth-nav-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+
     .auth-link:hover,
     .auth-link:focus {
     color: var(--back-accent-color);
@@ -1258,7 +1264,9 @@ color: var(--back-accent-color);
     .team-card {
       width:  calc((100% - 24px) / 2);  
     }
-
+    .customers-container {
+        max-width: 582px;
+    }
     .logo-footer {
         color: var(--back-dark-color);
         letter-spacing: 0.03em;
@@ -1552,11 +1560,6 @@ color: var(--back-accent-color);
 }
 
 
-
-
-
-
-
 .logo-footer {
     color: var(--back-dark-color);
     letter-spacing: 0.03em;
@@ -1567,6 +1570,7 @@ color: var(--back-accent-color);
     width: 264px;
     letter-spacing: 0.02em;
     line-height: 24px;
+    margin-bottom: 0;
    
 }
 .footer .logo {
@@ -1591,7 +1595,8 @@ color: var(--back-accent-color);
 .team-soc-list-footer {
     gap: 16px;
     display: flex;
-    align-items: center;   
+    align-items: center;
+    margin-bottom: 0;   
 }
 
 .team-soc-link-footer {
